@@ -7,7 +7,7 @@ RGBFIX = rgbfix
 
 RM_F = rm -f
 
-ASFLAGS = -h
+ASFLAGS =
 LDFLAGS = -t -w -n gb8.sym
 FIXFLAGS = -v -p $(PADVAL) -t $(NAME) -C
 

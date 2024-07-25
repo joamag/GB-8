@@ -1,8 +1,8 @@
-EmuScreenPtrVRAM           EQU $9842
-GameTitlePtrVRAM           EQU $99AA
-NonCGBPtrVRAM              EQU $98A2
+DEF EmuScreenPtrVRAM           EQU $9842
+DEF GameTitlePtrVRAM           EQU $99AA
+DEF NonCGBPtrVRAM              EQU $98A2
 
-CursorTileNo               EQU $AB
+DEF CursorTileNo               EQU $AB
 
-InputCooldownDuration      EQU 5
-PageSwitchCooldownDuration EQU 15
+DEF InputCooldownDuration      EQU 5
+DEF PageSwitchCooldownDuration EQU 15
